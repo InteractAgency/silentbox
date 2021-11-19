@@ -15,6 +15,7 @@
       >
         <div id="silentbox-overlay__embed">
           <div id="silentbox-overlay__container">
+            <button>DOWNLOAD</button>
             <!-- embed video rendering -->
             <iframe
               v-if="isEmbedVideo(overlayItem.src)"
